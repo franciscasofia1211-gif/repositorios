@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 1993709796566539183}
   - component: {fileID: 1128730712608695268}
   - component: {fileID: 1681687592710316370}
-  - component: {fileID: 4693830078071188063}
-  - component: {fileID: 365443386776170051}
   m_Layer: 0
   m_Name: ObjetoDePrueba3
   m_TagString: Untagged
@@ -116,28 +114,3 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4693830078071188063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231006001039957304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c79751bf7d6b86ac8cec0a1b9c97995, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScriptCapsula2
---- !u!114 &365443386776170051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231006001039957304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c30d5b921eff8ce49bae0bf64419b91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CreadorCubo2
-  CuboPref: {fileID: 0}
