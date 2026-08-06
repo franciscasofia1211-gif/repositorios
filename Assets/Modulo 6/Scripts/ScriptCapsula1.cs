@@ -1,19 +1,21 @@
 using UnityEngine;
 
-public class ScriptEsfera1 : MonoBehaviour
-
-{
+public class ScriptCapsula1 : MonoBehaviour
+{ 
+    public ScriptEsfera1 Script1;
+    public ScriptCubo Script2;
 
     public bool IsTrue;
-
-    //void Update()
-    //{
-    //    GetComponent<MeshRenderer>().material.color = new Color(Random.value, Random.value, Random.value);
-    //}
-
     void FixedUpdate()
     {
-        IsTrue = !IsTrue;
+        if(Script1.IsTrue == true || Script2.IsTrue == true)
+        {
+            IsTrue = false;
+        }
+        else
+        {
+            IsTrue = true;
+        }
         if (IsTrue)
         {
             GetComponent<MeshRenderer>().material.color = Color.black;
@@ -23,4 +25,5 @@ public class ScriptEsfera1 : MonoBehaviour
             GetComponent<MeshRenderer>().material.color = Color.white;
         }
     }
+    
 }

@@ -321,7 +321,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347557493}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.96225023, y: -0.02255764, z: 0.25783417, w: 0.08418628}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -582,9 +582,21 @@ PrefabInstance:
       propertyPath: CuboPref
       value: 
       objectReference: {fileID: 6991970131807010312, guid: 3019eb31de1e0cd87988df5c5c5d1fe7, type: 3}
+    - target: {fileID: 365443386776170051, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4693830078071188063, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
+      propertyPath: Script1
+      value: 
+      objectReference: {fileID: 279160100}
+    - target: {fileID: 4693830078071188063, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
+      propertyPath: Script2
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 9131074152762759179, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 9131074152762759179, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
       propertyPath: m_LocalPosition.y
@@ -625,7 +637,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 231006001039957304, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1790899091}
   m_SourcePrefab: {fileID: 100100000, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
 --- !u!1001 &7989897567768167669
 PrefabInstance:
@@ -639,13 +654,17 @@ PrefabInstance:
       propertyPath: CuboPref
       value: 
       objectReference: {fileID: 6991970131807010312, guid: 3019eb31de1e0cd87988df5c5c5d1fe7, type: 3}
+    - target: {fileID: 554529456961330104, guid: 4ca2e5b13f83c129abb9f2adda3444a9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1209196876348763531, guid: 4ca2e5b13f83c129abb9f2adda3444a9, type: 3}
       propertyPath: m_Name
       value: ObjetoDePrueba1
       objectReference: {fileID: 0}
     - target: {fileID: 7406760141635541723, guid: 4ca2e5b13f83c129abb9f2adda3444a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7406760141635541723, guid: 4ca2e5b13f83c129abb9f2adda3444a9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -686,7 +705,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1209196876348763531, guid: 4ca2e5b13f83c129abb9f2adda3444a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2013269733}
   m_SourcePrefab: {fileID: 100100000, guid: 4ca2e5b13f83c129abb9f2adda3444a9, type: 3}
 --- !u!1001 &8961318561516544380
 PrefabInstance:
@@ -702,7 +724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3147630468484489267, guid: 746cecf559fb98d26a9655c5d8f6aee9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3147630468484489267, guid: 746cecf559fb98d26a9655c5d8f6aee9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -744,6 +766,10 @@ PrefabInstance:
       propertyPath: CuboPref
       value: 
       objectReference: {fileID: 6991970131807010312, guid: 3019eb31de1e0cd87988df5c5c5d1fe7, type: 3}
+    - target: {fileID: 8695239965000750277, guid: 746cecf559fb98d26a9655c5d8f6aee9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
