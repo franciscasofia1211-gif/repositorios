@@ -453,6 +453,7 @@ GameObject:
   - component: {fileID: 2033923869}
   - component: {fileID: 2033923868}
   - component: {fileID: 2033923872}
+  - component: {fileID: 2033923873}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -553,7 +554,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033923867}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a20b6f7600b5f9c4ea39c8aa3ec14b09, type: 3}
   m_Name: 
@@ -563,9 +564,31 @@ MonoBehaviour:
   NumeroString: 0
   digito1: 4
   digito2: 14
+  segundaPalabra: 
   palabra: 
   Objeto: {fileID: 397456189}
   Objeto2: {fileID: 1820964885}
+--- !u!114 &2033923873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033923867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd84aeb3c8a2fe1cd9df146fbf860bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EjercicioDeCiclosYArreglos
+  ArregloUni1: 0000000000000000000000000000000000000000000000000000000000000000
+  ArregloUni2: 000000000000000000000000
+  ArregloUni3: 000000000000000000000000000000000000000000000000
+  ArregloStri:
+  - las
+  - papas
+  - fritas
+  - son
+  - increibles
 --- !u!1001 &5466157970363113419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -589,7 +612,7 @@ PrefabInstance:
     - target: {fileID: 4693830078071188063, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
       propertyPath: Script1
       value: 
-      objectReference: {fileID: 279160100}
+      objectReference: {fileID: 0}
     - target: {fileID: 4693830078071188063, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
       propertyPath: Script2
       value: 
@@ -637,10 +660,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 231006001039957304, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1790899091}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8672a11ada723e6268b80ac2274d5073, type: 3}
 --- !u!1001 &7989897567768167669
 PrefabInstance:
@@ -705,10 +725,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1209196876348763531, guid: 4ca2e5b13f83c129abb9f2adda3444a9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2013269733}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca2e5b13f83c129abb9f2adda3444a9, type: 3}
 --- !u!1001 &8961318561516544380
 PrefabInstance:
